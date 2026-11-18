@@ -5,6 +5,20 @@
 渲染引擎用 **PyMuPDF（MuPDF）**，不需要安装 poppler / Ghostscript / ImageMagick，`pip install` 两个包就能跑。
 
 ![界面](docs/gui.png)
+﻿
+---
+
+## 下载（Windows 免安装）
+
+到 **[Releases](https://github.com/xbbkok/pdf2img/releases)** 下载现成的 exe：
+
+| 文件 | 说明 |
+| --- | --- |
+| `pdf2img.exe` | 图形界面，单文件便携版（44 MB），双击即用 |
+| `pdf2img-cli.exe` | 命令行版，单文件（41 MB） |
+| `pdf2img-portable-win64.zip` | GUI 版 + 使用说明打包（exe 被微信/邮件拦截时用） |
+
+**目标机不需要安装 Python，也不需要 VC++ 运行库**；系统要求 Windows 10 / 11（64 位）。想自己构建或改代码，见下方「安装」与「打包成独立 exe」。
 
 ---
 
