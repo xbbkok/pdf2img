@@ -1,0 +1,19 @@
+# 二进制与构建产物
+dist/
+portable/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 运行输出
+out/
+pdf2img_out/
+*.zip
+
+# 临时文件
+.tmp*/
+*.log
